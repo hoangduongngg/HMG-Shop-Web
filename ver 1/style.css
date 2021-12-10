@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+  }
+  :root {
+    --pink-color: #B05353;
+  }
+  body {
+    font-family: 'Montserrat', sans-serif;
+  }
+  h2 {
+    font-weight: 1000;
+    color: #364037;
+  }
+  a {
+    color: var(--pink-color);
+  }
+  .banner img {
+    margin-top: 50px;
+    margin-left: 35px;
+    margin-bottom: 50px;
+    width: 1005px;
+    height: 468px;
+    border-radius: 23px;
+    filter: drop-shadow(4px 4px 10px rgba(24, 28, 20, 0.15));
+    background: url("https://lh3.googleusercontent.com/pw/AM-JKLVomfikbqP3NONS5P0gwm-ltxpdUcUfTaXsWZ2U6T5BkfNwrzxS833WDcq5SpRLXQLyPl1cWbk8WgE8uM_p25l9V8kyJCGJlkzYGNwTWmsN7xShw-ZvclyQViWuEI5hAHFsJsUEYaCwFszQmg0Sjkt1=w1005-h468-no?authuser=1");
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 5px;
+  }
+  .container {
+    background-color: #EEF3ED;;
+    padding: 5px;
+    margin-bottom: 30px;
+    width: 1088px;
+    /* height: 2024px; */
+    margin-top: 30px;
+    box-shadow: 0px 0px 20px 8px rgba(0, 0, 0, 0.05);
+    border-radius: 30px;
+  }
+  .column {
+    float: right;
+    width: 35%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-right: 100px;
+  }
+  .newpicture {
+    float: left;
+    width: 55%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  
+  .item {
+    float: left;
+    width: 30%;
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: 30px;
+    max-width: 300px;
+  }
+  .box {
+    color: var(--pink-color);
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 65px;
+    margin-bottom: 30px;
+    width: 280px;
+    height: 156px;
+    background: url(https://scontent.fhan5-11.fna.fbcdn.net/v/t39.30808-6/263809043_2970746159809764_5800192272336370196_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=730e14&_nc_ohc=DSdQQwhcS9sAX8MsCYl&_nc_ht=scontent.fhan5-11.fna&oh=63c613b10945cb30eb6aea0f2703f999&oe=61B6D54E);
+  }
+  a:hover {
+    text-decoration: none;
+  }
+  
+  .about_us {
+    margin-top: 10px;
+    margin-bottom: 50px;
+  }
+  /* .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  } */
+  
+  .hr_style {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 20px;
+    width: 1088px;
+    height: 0px;
+  
+    border: 0.5px solid #789066;
+  }
+  
+  .personal_picture {
+    float: left;
+    width: 30%;
+    padding: 5px;
+    margin-right: 30px;
+    max-width: 200px;
+    max-height: 200px;
+    margin-top: 10px;
+    margin-left: 90px;
+    margin-bottom: 150px;
+  }
+  .introduce_info {
+    width: 610px;
+    height: 50px;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    letter-spacing: -0.015em;
+    color: #789066;
+    margin-left: 240px;
+    margin-bottom: 200px;
+  }
+  .row::after {
+    /* sau row có nội dung trống, để container bao trùm cả  */
+    content: "";
+    display: table;
+    clear: both;
+  }
